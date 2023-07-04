@@ -79,6 +79,3 @@ void main()
     }
     sjf(processes,n,burst_time,arrival_time);
 }
-sjf.txt
-Displaying sjf.txt.
-}
