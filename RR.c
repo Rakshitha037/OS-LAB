@@ -1,5 +1,5 @@
 #include<stdio.h>  
-  
+#include<conio.h>
 void main()  
 {  
     // initlialize the variable name  
