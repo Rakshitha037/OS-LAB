@@ -38,3 +38,25 @@ tat[i]=finish[i]-arr[i];
     printf("\n Average waiting time:%f",(float)totwt/n);
     printf("\n Average turn around time:%f",(float)tottat/n);
 }
+// output:
+// Enter the number of processes:
+// 3
+// Enter process name ,arrival time and burst time:
+// p1
+// 2
+// 3
+// Enter process name ,arrival time and burst time:
+// p2
+// 5
+// 6
+// Enter process name ,arrival time and burst time:
+// p3
+// 6
+// 7
+
+// Pname Arrtime Burst time start Tat Finish
+// p1           2       3       2       3       5
+//              5       6       5       6      11
+// �Up3         6       7      11      12      18
+//  Average waiting time:1.666667
+//  Average turn around time:7.000000

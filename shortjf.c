@@ -79,3 +79,24 @@ void main()
     }
     sjf(processes,n,burst_time,arrival_time);
 }
+// output:
+// Enter the number of processes: 5
+// Enter the arrival time for process 1:2
+// Enter the Burst time for processes 1:1
+// Enter the arrival time for process 2:0
+// Enter the Burst time for processes 2:6
+// Enter the arrival time for process 3:4
+// Enter the Burst time for processes 3:1
+// Enter the arrival time for process 4:0
+// Enter the Burst time for processes 4:6
+// Enter the arrival time for process 5:2
+// Enter the Burst time for processes 5:3
+// SJF agorithm
+// Processes       AT      BT      WT      TAT     CT
+// 1               2       1       0       1       3
+// 3               4       1       0       1       5
+// 5               2       3       3       6       8
+// 4               0       6       8       14      14
+// 2               0       6       14      20      20
+// AVG waiting time: 5.000000
+// AVG turnaround time: 8.400000
