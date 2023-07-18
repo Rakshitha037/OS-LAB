@@ -67,23 +67,17 @@ int main()
             printf("Philosopher %d finished eating",n);
         }
         // output:
-        // Philosopher 1 is thinking
-        // philosopher 1 is eating
-        // Philosopher 2 is thinking
-        // philosopher 2 is eating
-        // Philosopher 4 is thinking
-        // philosopher 4 is eating
-        // Philosopher 5 is thinking
-        // philosopher 5 is eating
-        // Philosopher 3 is thinking
-        // philosopher 3 is eating
-        // philosopher 1 finished eating
-        //  philosopher 2 finished eating
-        //   philosopher 4 finished eating
-        //    philosopher 5 finished eating
-        //     philosopher 3 finished eating
-        //   mutex destroyed
-        
+        // Philosopher1 is thinking
+// Philosopher4 is thinking
+// Philosophers 4 is eating
+// Philosopher3 is thinking
+// Philosophers 3 is eating
+// Philosophers 1 is eating
+// Philosopher2 is thinking
+// Philosophers 2 is eating
+// Philosopher5 is thinking
+// Philosophers 5 is eatingPhilosopher 3 finished eatingPhilosopher 1 finished eatingPhilosopher 2 finished eatingPhilosopher 4 finished eatingPhilosopher 5 finished eating
+//  Mutex Destroyed
         
         
         
